@@ -1,4 +1,4 @@
-### Challenges-2: JavaScript Review
+### Challenges-3: JavaScript Objects and Array Iteration Methods Review
 
 ### Purpose:
 ##### If you have taken some time off, this will help you remember what JavaScript Objects are and you can use them
