@@ -9,26 +9,42 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-1.js')
 
-describe('challenge-1: missing num is not in array', function () {
+const { total, shoes, increaseCost, replaceCost } = challenge
+
+const house = {
+  kitchen: 1500,
+  bathroom: 1000,
+  livingroom: 2000,
+  bedroom: {
+    bed: 500,
+    lights: 100,
+    drawer: {
+      clothes: 100,
+      shoes: 200
+    }
+  }
+}
+
+describe('challenge-1: total cost of house', function () {
   it('returns the correct value', function () {
-    expect(challenge([1, 2, 3, 4])).to.equal(5)
+    expect(total()).to.equal(5500)
   })
 })
 
-describe('challenge-1: missing num is in array', function () {
+describe('challenge-1: cost of shoes', function () {
   it('returns the correct value', function () {
-    expect(challenge([1, 2, 5, 4])).to.equal(3)
+    expect(shoes()).to.equal(200)
   })
 })
 
-describe('challenge-1: biggest num in array is less than 0', function () {
+describe('challenge-1: increaseCost of kitchen', function () {
   it('returns the correct value', function () {
-    expect(challenge([-1, -2, -3])).to.equal(1)
+    expect(increaseCost(house, 'kitchen')).to.equal(2000)
   })
 })
 
-describe('challenge-1: single item in array', function () {
+describe('challenge-1: replaceCost of bathroom', function () {
   it('returns the correct value', function () {
-    expect(challenge([11])).to.equal(1)
+    expect(replaceCost(house, 'kitchen', 10000)).to.equal(10000)
   })
 })

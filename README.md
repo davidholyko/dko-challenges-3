@@ -1,9 +1,7 @@
-### Problem Format
-
-#### Note: The tests are not super in-depth on purpose and passing the tests may not actually mean your functions work correctly and run in a reasonable amount of time!
+### Challenges 3: JavaScript Object Review
 
 ### Purpose:
-##### To help prepare for Wayfair Labs tech challenge. First question is debugging, second is Algorithms, third is a word problem. The difficulty of these questions are supposed to be on par with what you will expect and may be a little harder
+##### If you have taken some time off, this will help you remember what JavaScript Objects are and you can use them
 
 ##### Challenges are located in lib folder
 
