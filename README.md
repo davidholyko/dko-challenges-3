@@ -5,30 +5,18 @@
 
 ##### Challenges are located in lib folder
 
-## Total Time: 2 Hours for 3 challenge problems
-
-##### challenge-1
-
-Suggested Alloted Time: 15 min
+##### challenge-1: Objects Review
 
 1. Code has a few bugs
 1. Modify the code without adding or removing lines of code
 1. Grunt test check if it passes the tests
 
-##### challenge-2
-
-Suggested Alloted Time: 60 min
+##### challenge-2: Array Iteration Methods Review
 
 1. Algorithm question
 1. Create a function that passes the tests
 1. After creating the function, try to make it more efficient
 
-##### challenge-3
-
-Suggested Alloted Time: 45 min
-
-1. Supposed to be a long ass word problem with a simple question
-1. Create a function that passes the tests
 
 ## Steps
 
